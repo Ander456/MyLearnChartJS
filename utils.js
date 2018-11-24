@@ -2,7 +2,7 @@ const readline = require('readline');
 const fs = require('fs');
 
 const rl = readline.createInterface({
-    input: fs.createReadStream('log_20181115_all.txt'),
+    input: fs.createReadStream('log_20181124_all.txt'),
     crlfDelay: Infinity
 });
 
@@ -32,7 +32,7 @@ rl.on("close", () => {
 })
 
 const rl2 = readline.createInterface({
-    input: fs.createReadStream('onlinelog_20181115_all.txt'),
+    input: fs.createReadStream('onlinelog_20181124_all.txt'),
     crlfDelay: Infinity
 });
 
